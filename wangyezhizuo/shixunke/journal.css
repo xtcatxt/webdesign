@@ -1,7 +1,9 @@
 /*这是一条css命令*/
+html{
+font-size: 12px;
+}
 body{
   font-family: "Verdana","Geneva","Arial";
-  font-size: 12px;
 }
 
 h1{
