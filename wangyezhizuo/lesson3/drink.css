@@ -9,3 +9,15 @@
       p{
             color: maroon
       }
+      body{
+      background-color: mediumvioletred;
+	color: royalblue;
+	color: rgb(65, 105, 225);
+	color: #4169E1CC;
+	color: rgba(39,177,182,0.8);
+	color: #2775b6CC;
+      color:yellow;
+      color:rgb(18,170,156);
+      color:#12AA9C;
+      color:rgb(99,187,208);
+      }
