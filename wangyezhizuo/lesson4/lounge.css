@@ -26,4 +26,16 @@ h2 {
   background-color: #a7cece;
   padding:  25px;
   margin: 30px;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 250px;
+
+
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-style: dashed;
+  border-color: white;
 }
