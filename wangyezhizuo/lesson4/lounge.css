@@ -80,3 +80,12 @@ margin-top: 30px;
   background: #f88396;
   color: #0d5353;
 }
+p {
+  color: blue;
+}
+.cname{
+  color: blueviolet;
+}
+#iname{
+  color: red;
+}
