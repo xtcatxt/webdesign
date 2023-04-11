@@ -29,15 +29,11 @@ h2 {
   background-position: top left;
   padding: 25px;
   padding-left: 80px;
-  margin-right: 645px;
-
-
-  border-top-right-radius: 15em;
-  border-bottom-left-radius: 15em;
-  border-top-left-radius: 15em;
-  border-bottom-right-radius: 15em;
+  margin-right: 250px;
   border-style: dashed;
-  border-color: white;
+  border-color:color;
+  border-bottom-left-radius:3em;
+  border-bottom-left-radius: 3em;
 }
 .elixirs {
   border-width: thin;
@@ -52,6 +48,7 @@ h2 {
   background-repeat: repeat-x;
   text-align: center; /* 文本居中对齐 */
   line-height: 1;
+  float: right;
   }
 .elixirs h2 {
   color: black;
@@ -59,10 +56,10 @@ h2 {
 .elixirs h3{color: #d12c47
 }
 .footer {
-font-size: .5em;
-text-align: center;/* normal 允许浏览器根据字体自行选择一个合适的行高 */
-line-height: normal;
-margin-top: 30px;
+  font-size: .5em;
+  text-align: center;/* normal 允许浏览器根据字体自行选择一个合适的行高 */
+  line-height: normal;
+  margin-top: 30px;
 }
 .cd {
   font-style: italic;
@@ -84,8 +81,8 @@ p {
   color: blue;
 }
 .cname{
-  color: blueviolet;
+  color: black;
 }
 #iname{
-  color: red;
+  color: brown;
 }
