@@ -1,12 +1,13 @@
 .grandparent {
-  position: relative;
+
   width: 50vw;
   height: 50vw;
   padding: 10px;
-  position: relative;
   background-color: dimgray;
 }
 .parent {
+
+  position: relative;
   width: 30vw;
   height: 20vw;
   margin: 30px 10px;
@@ -21,4 +22,10 @@
   padding: 5px;
   background-color:navy;
   color: white;
+}
+
+.move{
+  position: absolute;
+  top: -20px;
+  left: 20px;
 }
