@@ -75,7 +75,6 @@ div.tableContainer {
 }
 
 .drinks {
-
   background-color: #efe5d0;
   padding:          15px;
   display:          table-cell;
@@ -86,3 +85,17 @@ div.tableContainer {
 float: right;
 }
 
+.sprite-container {
+width: 50%;
+height: 100%;
+overflow: hidden;
+background-image: url('img-navsprites.gif')
+}
+
+.header-logo {
+background-position: 0px 0px;
+}
+
+.hear-slogan {
+background-position: -400px 0px;
+}
