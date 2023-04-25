@@ -81,21 +81,41 @@ div.tableContainer {
   vertical-align:   top;
 }
 
-.headerSlogan{
-float: right;
-}
-
 .sprite-container {
-width: 50%;
-height: 100%;
-overflow: hidden;
-background-image: url('img-navsprites.gif')
+  width: 260px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .header-logo {
-background-position: 0px 0px;
+  background-position-x:   0px;
+  background-position-y:   0px;
+  background-image: url('images/herder.gif');
 }
 
 .hear-slogan {
-background-position: -400px 0px;
+  background-position:  260px 0px;
+  background-image: url('images/header.gif');
+  float: right;
+}
+
+.award {
+  position:  absolute;
+  top: 30px;
+  left: 45%;
+}
+
+.coupon{
+  position: fixed;
+  top: 350px;
+  left: -90px;
+  transition: left 0.5s ease-out;
+}
+
+.coupon a, img{
+  border: none;
+}
+
+.coupon:hover {
+  left: 0px;
 }
