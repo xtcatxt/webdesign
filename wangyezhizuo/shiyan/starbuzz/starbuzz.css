@@ -61,9 +61,7 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-div.tableContainer {
-  display:          table;
-}
+
 
 div.talbeRow {
   display:          table-row;
@@ -82,21 +80,21 @@ div.tableContainer {
 }
 
 .sprite-container {
-  width: 260px;
-  height: 100%;
-  overflow: hidden;
+  width: 260px; /* 显示的宽度为足够露出 Logo 和 slogan 为准 */ 
+  height: 100%; /* 图片高度 */
+  overflow: hidden; /* 隐藏溢出部分 */ 
 }
 
 .header-logo {
-  background-position-x:   0px;
-  background-position-y:   0px;
-  background-image: url('images/herder.gif');
+	background-image: url('images/header.gif');
+	background-position-x: 0px;
+	background-position-y: 0px; /* 没有任何偏移 */
 }
 
-.hear-slogan {
-  background-position:  260px 0px;
-  background-image: url('images/header.gif');
-  float: right;
+.header-slogan {
+	background-image: url('images/header.gif');
+	background-position: 260px 0px; /* 原来是向左偏移，现在呢 */
+	float: right;
 }
 
 .award {
