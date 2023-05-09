@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#silder-box {
+  width: 100vw;
+  height: 45vw;
+}
+  #silder-box .silder-img {
+  position: relative;
+}
+#silder-box ul li {
+  position: absolute;
+  list-style: none;
+}
+#silder-box li img {
+  width: 100vw;
+  height: 45vw;
+}
+
+#silder-box ul>li:nth-child(3) {
+  animation: li3 8s infinite;
+}
+#silder-box ul>li:nth-child(2) {
+  animation: li2 8s infinite;
+}
+#silder-box ul>li:nth-child(1) {
+  animation: li1 8s infinite;
+}
+@keyframes li3{
+  25%{opacity: 1;}
+  45%{opacity: 0;} 
+  75%{opacity: 0;}
+}
+@keyframes li2{
+  50%{opacity: 1;}
+  70%{opacity: 0;}
+  75%{opacity: 0;}
+}
+@keyframes li1{
+  50%{opacity: 1;}
+  75%{opacity: 1;}
+  95%{opacity: 0;}
+}
+
+.carousel_map {
+	width: 640px;
+	height: 400px;
+}
+
+.slide {
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+}
+
+/* 鼠标放上去显示按钮 */
+.slide:hover .labels {
+	display: flex;
+}
+
+.slide:hover .list {
+	animation: none;
+}
+
+.slide input {
+	display: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.list {
+	width: calc(5 * 640px);
+	height: inherit;
+	position: relative;
+	
+	/* 设置动画效果 */
+	animation: move 15s ease 1s infinite;
+}
+
+/* 动画关键帧轮播 */
+@keyframes move {
+	0% {
+		transform: translate(calc(0 * 640px));
+	}
+	25% {
+		transform: translate(calc(-1 * 640px));
+	}
+	50% {
+		transform: translate(calc(-2 * 640px));
+	}
+	75% {
+		transform: translate(calc(-3 * 640px));
+	}
+	100% {
+		transform: translate(calc(-4 * 640px));
+	}
+}
+
+.item {
+	width: 640px;
+	height: 400px;
+	float: left;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.carousel_map {
+	width: 640px;
+	height: 400px;
+}
+
+.slide {
+	width: inherit;
+	height: inherit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.carousel_map {
+	width: 640px;
+	height: 400px;
+}
+
+.slide {
+	width: inherit;
+	height: inherit;
+}
+
+
+
