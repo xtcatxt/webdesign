@@ -5,27 +5,82 @@ body {
   margin:           0px;
 }
 
-.top {
+.sprite-container{
+  width: 260px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-logo{
+  background-image: url('imges/header.gif');
+  background-position-x: 0px;
+  background-position-y: 0px;
+
+}
+
+.header-slogan{
+  background-image: url('imges/header.gif'); 
+  background-position: 260px 0px;
+  float: right;
+}
+
+.award{
+  position: absolute;
+  top: 30px;
+  left: 45%;
+  transition:left ;
+}
+
+
+.coupon{
+  position: fixed;
+  top: 350px;
+  left: -210px;
+  transition: left 0.5s ease-out;
+}
+
+.coupon:hover{
+  left:0px
+}
+
+
+.coupon a,img{
+  border: none;
+}
+
+
+.hearderSlogan{
+  float:right;
+}
+
+
+.top{
   background-color: #675c47;
-  margin:           10px;
+  margin:           0px;
   height:           108px;
-
 }
 
-.main {
+div#tableContainer{
+  display: table;
+  border-spacing: 10px;
+}
+
+div#tableRow{
+  display: table-row;
+}
+
+#drinks {
+    display: table-cell;
+    vertical-align: top;
+    background-color: #efe5d0;
+    padding: 15px;
+}
+
+#main {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  display:          table-cell;
-  vertical-align:   top;
-}
-
-/* added section#blog for blog */
-section.main, section.blog {
   display: table-cell;
-  background:       #efe5d0 url(images/background.gif) top left;
-  font-size:        105%;
-  padding:          15px;
   vertical-align: top;
 }
 
@@ -33,8 +88,9 @@ section.main, section.blog {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  display:          table-cell;
-  vertical-align:   top;
+  display: table-cell;
+  vertical-align: top;  
+  width: 280px;
 }
 
 .footer {
@@ -42,7 +98,7 @@ section.main, section.blog {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin:           0px;
   font-size:        90%;
 }
 
@@ -51,7 +107,7 @@ h1 {
   color:            #954b4b;
 }
 
-.slogan { color:    #954b4b; }
+.slogan { color: #954b4b; }
 
 .beanheading {
   text-align:       center;
@@ -69,59 +125,40 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-
-
-div.talbeRow {
-  display:          table-row;
-}
-
-div.tableContainer {
-  display:          table;
-  border-spacing:   10px;
-}
-
-.drinks {
-  background-color: #efe5d0;
+/* added section#blog for blog */
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
   padding:          15px;
-  display:          table-cell;
-  vertical-align:   top;
+  vertical-align: top;
 }
 
-.sprite-container {
-  width: 260px; /* 显示的宽度为足够露出 Logo 和 slogan 为准 */ 
-  height: 100%; /* 图片高度 */
-  overflow: hidden; /* 隐藏溢出部分 */ 
+ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
 }
 
-.header-logo {
-	background-image: url('images/header.gif');
-	background-position-x: 0px;
-	background-position-y: 0px; /* 没有任何偏移 */
+ul li{
+  background-color: #c8b99c;
+  display: inline;
+  padding: 5px 10px 5px 10px;
+  }
+
+  ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+/*text-shadow: 1px 1px 3px #e2c2c2; text-transform: uppercase;*/
 }
 
-.header-slogan {
-	background-image: url('images/header.gif');
-	background-position: 260px 0px; /* 原来是向左偏移，现在呢 */
-	float: right;
+ul li.selected {
+	background-color: #c8b99c;
 }
 
-.award {
-  position:  absolute;
-  top: 30px;
-  left: 45%;
-}
-
-.coupon{
-  position: fixed;
-  top: 350px;
-  left: -90px;
-  transition: left 0.5s ease-out;
-}
-
-.coupon a, img{
-  border: none;
-}
-
-.coupon:hover {
-  left: 0px;
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
 }
