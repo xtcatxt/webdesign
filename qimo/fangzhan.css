@@ -342,4 +342,28 @@ margin-left: 200px;
 
 
 
+.round1{
+position:absolute;
+top: 1950px;
+left: 300px
+}
+.round1 img{
+	width:40px;
+	height:40px;
+}
+.round2 img{
+	width:40px;
+	height:40px;
+}
+.round2{
+position:absolute;
+top: 1950px;
+right: 300px
+}
+
+
+
+
+
+
 
