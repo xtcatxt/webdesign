@@ -66,11 +66,11 @@
 	height: 320px;
 	position: relative;
 	/* 设置动画效果 */
-	animation: move 25s ease 2s infinite;
+	animation: move 45s ease 3s infinite;
 	list-style-type: none;
 }
 
-/* 动画关键帧轮播 */
+/* 动画关键帧轮播 */ 
 @keyframes move {
 	8% {
 		transform: translate(calc(-1 * 336px));
@@ -339,11 +339,10 @@ margin-left: 200px;
 
 
 
-
 .round1{
-position:absolute;
-top: 950px;
-left: 300px
+	position:absolute;
+	top: 950px;
+	left: 300px;
 }
 .round1 img{
 	width:40px;
@@ -354,9 +353,9 @@ left: 300px
 	height:40px;
 }
 .round2{
-position:absolute;
-top: 950px;
-right: 300px
+	position:absolute;
+	top: 950px;
+	right: 300px;
 }
 
 
