@@ -343,19 +343,17 @@ margin-left: 200px;
 	position:absolute;
 	top: 950px;
 	left: 300px;
-}
-.round1 img{
 	width:40px;
 	height:40px;
-}
-.round2 img{
-	width:40px;
-	height:40px;
+	background-color: none;
 }
 .round2{
 	position:absolute;
 	top: 950px;
 	right: 300px;
+	width:40px;
+	height:40px;
+	background-color: none;
 }
 
 
